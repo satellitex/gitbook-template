@@ -144,7 +144,7 @@ HashMapのAPIはink! の [core/storage/collections/hash\_map](https://github.com
 
 {% code-tabs %}
 {% code-tabs-item title="core/storage/collections/hash\_map/impls.rs" %}
-```rust
+```:rust
 ...
     pub fn insert(&mut self, key: K, val: V) -> Option<V> {...}
     pub fn remove<Q>(&mut self, key: &Q) -> Option<V> {...}
@@ -161,7 +161,7 @@ FlipperはDeployトレイトを実装し、Deployトレイトはdeploy関数を�
 
 {% code-tabs %}
 {% code-tabs-item title="flipper/src/lib.rs" %}
-```rust
+```:rust
     impl Deploy for Flipper {
         /// スマートコントラクトデプロイ時に真偽値をfalseに初期化
         fn deploy(&mut self) {

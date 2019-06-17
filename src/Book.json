@@ -8,17 +8,19 @@
         "prism",
         "image-captions",
         "algolia", "lunr",
-        "ga",
         "github", "github-buttons",
         "atoc", "toc",
         "codeblock-filename", 
         "mathjax",
-        "hints"
+        "hints",
+        "page-ref",
+        "copy-code-button",
+        "codetabs"
     ],
     "pluginsConfig": {
-        "favicon": "./assets/images/icon/favicon.ico",
+        "favicon": "./.gitbook/assets/images/icon/favicon.ico",
         "insert-logo": {
-            "url": "../assets/images/mitsuhisaT_logo_L.png",
+            "url": "../.gitbook/assets/images/mitsuhisaT_logo_L.png",
             "style": "background: none;"
         },
         "sharing": {
@@ -35,6 +37,15 @@
         "uml": {
             "charset": "utf-8",
             "format": "svg"
+        },
+        "algolia": {
+            "index": "algolia-index-name",
+            "applicationID": "algolia-application-id",
+            "publicKey": "algolia-search-only-api-key",
+            "freeAccount": "true"
+        },
+        "github": {
+            "url": "https://github.com/stakedtechnologies/substrate.jp"
         }
     },
     "language": "ja"
