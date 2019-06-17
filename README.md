@@ -9,7 +9,8 @@ $ gitbook --version
 
 ## Update Docsments
 ```
-$ gitbook build . docs
+$ gitbook install src
+$ gitbook build src docs
 $ git commit -m "commit message"
 $ git push origin branch_name
 ```
