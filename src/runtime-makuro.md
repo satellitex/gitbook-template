@@ -19,7 +19,6 @@ Substrate Runtimeの構成は上の図のようになっており、Substrate Ru
 基本的な構文は以下のようになります。例えば値を定義することも、mapを定義することもできます。\(それぞれuse support::StoreValue,use support::StoreMapが必要です。\)
 
 {% code-tabs %}
-{% code-tabs-item title="runtime/src/mysrml.rs" %}
 ```rust
 decl_storage! {
     trait Store for Module<T: Trait> as MyStore {
@@ -28,7 +27,6 @@ decl_storage! {
     }
 }
 ```
-{% endcode-tabs-item %}
 {% endcode-tabs %}
 
 wasmコンパイルされると、javascriptからは
