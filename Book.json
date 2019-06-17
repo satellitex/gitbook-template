@@ -1,0 +1,41 @@
+{
+    "plugins": [
+        "custom-favicon",
+        "insert-logo",
+        "expand-active-chapter",
+        "navigator",
+        "uml",
+        "prism",
+        "image-captions",
+        "algolia", "lunr",
+        "ga",
+        "github", "github-buttons",
+        "atoc", "toc",
+        "codeblock-filename", 
+        "mathjax",
+        "hints"
+    ],
+    "pluginsConfig": {
+        "favicon": "./assets/images/icon/favicon.ico",
+        "insert-logo": {
+            "url": "../assets/images/mitsuhisaT_logo_L.png",
+            "style": "background: none;"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": true,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+            "facebook", "twitter", "google", "weibo", "instapaper", "vk"
+            ]
+        },
+        "uml": {
+            "charset": "utf-8",
+            "format": "svg"
+        }
+    },
+    "language": "ja"
+}
