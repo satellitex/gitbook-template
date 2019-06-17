@@ -11,16 +11,15 @@
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
 
+# Book build output
+_book
+
 # eBook build output
 *.epub
 *.mobi
 *.pdf
 
 # End of https://www.gitignore.io/api/gitbook
-
-
-# Created by https://www.gitignore.io/api/macos
-# Edit at https://www.gitignore.io/?templates=macos
 
 ### macOS ###
 # General
